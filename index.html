@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talk to Our Founder | Good Laundry</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background-color: #ffffff;
+            color: #1a2942;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 500px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .logo {
+            width: 100px;
+            height: 100px;
+            margin: 0 auto 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .founder-photo {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 20px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 3px solid #2c8cba;
+        }
+
+        .founder-photo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        h1 {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 12px;
+            line-height: 1.2;
+            color: #1a2942;
+        }
+
+        .subtitle {
+            font-size: 18px;
+            color: #40a3a3;
+            margin-bottom: 40px;
+            font-weight: 500;
+        }
+
+        .contact-options {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            margin-bottom: 40px;
+        }
+
+        .contact-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            padding: 18px 24px;
+            background-color: #2c8cba;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: 600;
+            transition: transform 0.2s, box-shadow 0.2s, background-color 0.2s;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-button:hover {
+            background-color: #2577a0;
+        }
+
+        .contact-button:active {
+            transform: translateY(2px);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-button svg {
+            width: 24px;
+            height: 24px;
+            fill: #ffffff;
+        }
+
+        .tagline {
+            font-size: 14px;
+            color: #666666;
+            line-height: 1.6;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 400px) {
+            h1 {
+                font-size: 24px;
+            }
+            
+            .subtitle {
+                font-size: 16px;
+            }
+            
+            .contact-button {
+                font-size: 16px;
+                padding: 16px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="goodlaundrylogo.png" alt="Good Laundry Logo">
+        </div>
+        
+        <div class="founder-photo">
+            <img src="founder.jpg" alt="Dan, Founder of Good Laundry">
+        </div>
+        
+        <h1>Questions or something not right?</h1>
+        <p class="subtitle">Talk to our founder</p>
+        
+        <div class="contact-options">
+            <a href="sms:+19284400573&body=HELP" class="contact-button">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H6l-2 2V4h16v12z"/>
+                </svg>
+                Text Us
+            </a>
+            
+            <a href="mailto:support@goodlaundry.com" class="contact-button">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                </svg>
+                Email Us
+            </a>
+        </div>
+        
+        <p class="tagline">
+            If you ever need help, want tips, or something doesn't feel right — reach out.<br>
+            We read every message.
+        </p>
+    </div>
+</body>
+</html>
